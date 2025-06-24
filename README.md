@@ -1,18 +1,16 @@
-🚀 Binance Futures Testnet Trading Bot (Python)
-A simplified trading bot that connects to the Binance USDT-M Futures Testnet, supports market, limit, and stop-limit orders, with full .env-based security, logging, and CLI interaction.
+# 🔁 Binance Futures Testnet Trading Bot
 
-📦 Features
-🔑 Secure API Key loading via .env (no hardcoded keys)
+A Python trading bot for the Binance USDT-M Futures **Testnet**. Supports Market, Limit, and Stop-Limit orders via CLI. Built with `python-binance` and `.env` for secure API handling.
 
-💼 Market, Limit, and Stop-Limit order support
+## 🚀 Features
+- Place BUY/SELL orders (MARKET, LIMIT, STOP-LIMIT)
+- Uses Binance Futures Testnet (`https://testnet.binancefuture.com`)
+- API keys stored securely in `.env`
+- Logs all actions to `logs/bot.log`
 
-⚙️ Binance Futures Testnet integration
+## 🛠️ Setup
 
-🛠️ Error-handling and structured logging (logs/bot.log)
-
-🔁 Clean CLI interface
-
-✅ Fully runnable project with clean structure
-
-👨‍💻 Author
-Saurabh Lohar 
+```bash
+git clone https://github.com/yourusername/secure_binance_trading_bot.git
+cd secure_binance_trading_bot
+pip install -r requirements.txt
